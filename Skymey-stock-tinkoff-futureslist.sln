@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skymey-stock-tinkoff-futureslist", "Skymey-stock-tinkoff-futureslist\Skymey-stock-tinkoff-futureslist.csproj", "{47BC4655-E573-4C6A-9103-F254B218ECCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47BC4655-E573-4C6A-9103-F254B218ECCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BC4655-E573-4C6A-9103-F254B218ECCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BC4655-E573-4C6A-9103-F254B218ECCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BC4655-E573-4C6A-9103-F254B218ECCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3A2D6A0-7C7A-4E40-BDDF-07A541759C3D}
+	EndGlobalSection
+EndGlobal
