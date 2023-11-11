@@ -192,6 +192,10 @@ namespace Skymey_stock_tinkoff_futureslist.Actions.GetFutures
                     if (tfi.weekendFlag == null) tfi.weekendFlag = false;
                     tfi.blockedTcaFlag = item.BlockedTcaFlag;
                     if (tfi.blockedTcaFlag == null) tfi.blockedTcaFlag = false;
+                    tfi.lastTradeDate = item.LastTradeDate;
+                    if (tfi.lastTradeDate == null) tfi.lastTradeDate = Timestamp.FromDateTime(DateTime.UtcNow);
+                    tfi.firstTradeDate = item.FirstTradeDate;
+                    if (tfi.firstTradeDate == null) tfi.firstTradeDate = Timestamp.FromDateTime(DateTime.UtcNow);
                     tfi.Update = DateTime.UtcNow;
                     _db.Futures.Add(tfi);
                 }
